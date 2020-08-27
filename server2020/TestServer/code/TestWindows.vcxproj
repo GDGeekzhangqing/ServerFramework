@@ -117,8 +117,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>__WIN32_;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -143,7 +143,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\share\tinyxml\md5.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp" />
     <ClCompile Include="TestWindows.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\engine\IDefine.h" />
+    <ClInclude Include="..\..\share\tinyxml\md5.h" />
+    <ClInclude Include="..\..\share\tinyxml\tinystr.h" />
+    <ClInclude Include="..\..\share\tinyxml\tinyxml.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
