@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\engine\INetBase.cpp" />
     <ClCompile Include="..\..\share\tinyxml\md5.cpp" />
     <ClCompile Include="..\..\share\tinyxml\tinystr.cpp" />
     <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp" />
@@ -152,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\engine\IDefine.h" />
+    <ClInclude Include="..\..\engine\INetBase.h" />
     <ClInclude Include="..\..\share\tinyxml\md5.h" />
     <ClInclude Include="..\..\share\tinyxml\tinystr.h" />
     <ClInclude Include="..\..\share\tinyxml\tinyxml.h" />
