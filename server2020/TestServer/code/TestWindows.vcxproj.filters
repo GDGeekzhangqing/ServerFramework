@@ -28,7 +28,6 @@
     <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp">
       <Filter>share\tinyxml</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine\INetBase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\share\tinyxml\md5.h">
@@ -41,9 +40,6 @@
       <Filter>share\tinyxml</Filter>
     </ClInclude>
     <ClInclude Include="..\..\engine\IDefine.h">
-      <Filter>engine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engine\INetBase.h">
       <Filter>engine</Filter>
     </ClInclude>
   </ItemGroup>
