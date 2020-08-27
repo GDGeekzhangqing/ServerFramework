@@ -74,10 +74,23 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\exe\</OutDir>
+    <IntDir>..\compiles\linux\Debug\x64\     </IntDir>
+    <TargetName>textlinux</TargetName>
+  </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\share\tinyxml\md5.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\share\tinyxml\md5.h" />
+    <ClInclude Include="..\..\share\tinyxml\tinystr.h" />
+    <ClInclude Include="..\..\share\tinyxml\tinyxml.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
