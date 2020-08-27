@@ -1,0 +1,16 @@
+﻿  正在清理远程项目目录
+D:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(..\compiles\linux\Debug\x64\)包含从另一个项目(testlinux.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  正在验证源
+  正在将源远程复制到“192.168.0.156”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  md5.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  main.cpp
+  正在链接对象
+  testlinux.vcxproj -> C:\Users\Administrator\Documents\ServerFramework\server2020\TestServer\code\..\exe\textlinux.out

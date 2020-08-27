@@ -1,4 +1,3 @@
-﻿  正在清理远程项目目录
-  正在验证源
+﻿  正在验证源
   正在将源远程复制到“192.168.0.156”
-D:\VS2019\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(240,5): error : 在将源复制到远程计算机时出现异常 - 未能找到路径“C:\Users\Administrator\Documents\ServerFramework\server2020\TestServer\compiles\linux\Debug\x64\     \2095388670.Local_Remote_PathMapping.tlog”的一部分。
+D:\VS2019\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(240,5): error : 在将源复制到远程计算机时出现异常 - 未能找到路径“C:\Users\Administrator\Documents\ServerFramework\server2020\TestServer\compiles\linux\Debug\x64\     \-173173892.Local_Remote_PathMapping.tlog”的一部分。

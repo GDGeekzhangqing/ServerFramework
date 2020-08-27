@@ -76,8 +76,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\exe\</OutDir>
-    <IntDir>..\compiles\linux\Debug\x64\     </IntDir>
-    <TargetName>textlinux</TargetName>
+    <IntDir>..\compiles\linux\Debug\x64\</IntDir>
+    <TargetName>testlinux</TargetName>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\share\tinyxml\md5.cpp" />
